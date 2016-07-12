@@ -1,0 +1,10 @@
+<% if session[:admin] %>
+<a href="/account/logout">Logout</a>
+<% else %>
+<a href="/account/login">Login</a>
+<% end %>
+
+<% if session[:admin] %>
+<a validates :studentdata_manipulates, acceptance: true <n/a>
+
+<% end %>
